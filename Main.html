@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+    <meta charset="UTF-8">
+    <title>The Planets</title>
+</head>
+<body>
+  <header>
+      <nav>
+          <div class="top-nav">
+              <h2>THE PLANETS</h2>
+              <img class="hamburger-icon" src="assets/icon-hamburger.svg" alt="menu" title="menu">
+          </div>
+          <ol id="nav" class="nav">
+              <li id="mercury"><span>MERCURY</span><div></div><img class="icon-chevron" src="assets/icon-chevron.svg" alt="bouton" title="bouton"></li>
+              <li id="venus"><span>VENUS</span><div></div><img class="icon-chevron" src="assets/icon-chevron.svg" alt="bouton" title="bouton"></li>
+              <li id="earth"><span>EARTH</span><div></div><img class="icon-chevron" src="assets/icon-chevron.svg" alt="bouton" title="bouton"></li>
+              <li id="mars"><span>MARS</span><div></div><img class="icon-chevron" src="assets/icon-chevron.svg" alt="bouton" title="bouton"></li>
+              <li id="jupiter"><span>JUPITER</span><div></div><img class="icon-chevron" src="assets/icon-chevron.svg" alt="bouton" title="bouton"></li>
+              <li id="saturn"><span>SATURN</span><div></div><img class="icon-chevron" src="assets/icon-chevron.svg" alt="bouton" title="bouton"></li>
+              <li id="uranus"><span>URANUS</span><div></div><img class="icon-chevron" src="assets/icon-chevron.svg" alt="bouton" title="bouton"></li>
+              <li id="neptune"><span>NEPTUNE</span><div></div><img class="icon-chevron" src="assets/icon-chevron.svg" alt="bouton" title="bouton"></li>
+          </ol>
+      </nav>
+  </header>
+  <div class="mid-content">
+      <div class="main-img" id="main-img">
+          <img id="img-geology" src="assets/geology-earth.png" alt="geology" title="geology">
+      </div>
+      <div class="side-description">
+          <h1 id="main-title">EARTH</h1>
+          <p class="description-text" id="main-text">
+              Third planet from the Sun and the only known planet to harbor life.
+              About 29.2% of Earth's surface is land with remaining 70.8% is covered with water.
+              Earth's distance from the Sun,
+              physical properties and geological history have allowed life to evolve and thrive.
+          </p>
+          <p class="wikipedia-link">
+              Source:
+              <a id="wikipedia-page" href="https://en.wikipedia.org/wiki/Earth#Surface">Wikipedia</a>
+              <img src="assets/icon-source.svg" alt="wikipedia" title="wikipedia">
+          </p>
+      </div>
+      <ol id="choice-view" class="choice-view">
+          <li class="btn-choice overview" id="overview"><div class="number-choice">01</div> <div class="btn-choice-text">OVERVIEW</div></li>
+          <li class="btn-choice active" id="internal-structure"><div class="number-choice">02</div> <div class="btn-choice-text" id="structure"> <span id="internal" class="internal">INTERNAL</span> STRUCTURE</div></li>
+          <li class="btn-choice active" id="surface-geology"><div class="number-choice">03</div> <div class="btn-choice-text" id="surface"> SURFACE <span id="geology" class="geology">GEOLOGY</span></div></li>
+      </ol>
+  </div>
+  <div class="footer-content">
+      <div> <h4>ROTATION TIME</h4> <p id="rotation-time-nb">0.99 DAYS</p> </div>
+      <div> <h4>REVOLUTION TIME</h4> <p id="revolution-time-nb">325.26 DAYS</p> </div>
+      <div> <h4>RADIUS</h4> <p id="radius-nb">6,371 KM</p> </div>
+      <div> <h4>AVERAGE TEMP</h4> <p id="average-temp-nb">16°C</p> </div>
+  </div>
+
+  <script src="main.js" type="text/javascript"></script>
+  <script src="phonenav.js" type="text/javascript"></script>
+</body>
+</html>
